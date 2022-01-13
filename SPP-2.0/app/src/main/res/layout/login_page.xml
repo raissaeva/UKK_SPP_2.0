@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Login Sebagai"
+        android:textColor="#D13939"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/siswa"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:elevation="15dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:gravity="center"
+        android:text="Siswa"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:backgroundTint="#D13939"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:shapeAppearanceOverlay="@style/Button4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <Button
+        android:id="@+id/petugas"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:elevation="15dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:gravity="center"
+        android:text="Petugas"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:backgroundTint="#D13939"
+        app:layout_constraintTop_toBottomOf="@+id/siswa"
+        app:shapeAppearanceOverlay="@style/Button4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:elevation="15dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:gravity="center"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:backgroundTint="#D13939"
+        app:layout_constraintTop_toBottomOf="@+id/petugas"
+        app:shapeAppearanceOverlay="@style/Button4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
