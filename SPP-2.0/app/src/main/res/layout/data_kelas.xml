@@ -21,7 +21,7 @@
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:layout_width="51dp"
+                android:layout_width="50dp"
                 android:layout_height="50dp"
                 app:srcCompat="@drawable/admin"
                 tools:ignore="MissingConstraints"
